@@ -1,0 +1,6 @@
+{
+  "name": "Sanelow Sounds - Curated Playlists & Vibes",
+  "description": "Official Sanelow Music Group playlist hub. Discover curated Spotify playlists across Deep House, Dub Techno, Afro House, and submit your playlists to our network.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

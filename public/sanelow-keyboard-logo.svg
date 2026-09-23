@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" fill="none" class="w-full h-full">
+  <!-- Elevated Top-Left Module Tab (Pitch/Modulation housing) -->
+  <path d="M 50 100 L 50 60 A 10 10 0 0 1 60 50 L 175 50 A 10 10 0 0 1 185 60 L 185 100 Z" fill="#BE1E2F" />
+  
+  <!-- Main Synthesizer Outer Enclosure -->
+  <rect x="50" y="90" width="400" height="210" rx="14" fill="#BE1E2F" />
+  
+  <!-- Keys Bed Window (White Background for keys) -->
+  <rect x="68" y="106" width="364" height="174" rx="4" fill="#FFFFFF" />
+
+  <!-- 7 White Keys Separators (Thin Red lines between keys at bottom) -->
+  <!-- 7 keys across 364px: each key is ~52px wide -->
+  <!-- Separator 1: 68 + 52 = 120 -->
+  <line x1="120" y1="106" x2="120" y2="280" stroke="#BE1E2F" stroke-width="4" />
+  <!-- Separator 2: 120 + 52 = 172 -->
+  <line x1="172" y1="106" x2="172" y2="280" stroke="#BE1E2F" stroke-width="4" />
+  <!-- Separator 3: 172 + 52 = 224 -->
+  <line x1="224" y1="106" x2="224" y2="280" stroke="#BE1E2F" stroke-width="4" />
+  <!-- Separator 4: 224 + 52 = 276 -->
+  <line x1="276" y1="106" x2="276" y2="280" stroke="#BE1E2F" stroke-width="4" />
+  <!-- Separator 5: 276 + 52 = 328 -->
+  <line x1="328" y1="106" x2="328" y2="280" stroke="#BE1E2F" stroke-width="4" />
+  <!-- Separator 6: 328 + 52 = 380 -->
+  <line x1="380" y1="106" x2="380" y2="280" stroke="#BE1E2F" stroke-width="4" />
+
+  <!-- 5 Red Black Keys Hanging Down (grouped 2 and 3) -->
+  <!-- Key 1 between white keys 1 & 2 (centered around 120): x = 104, width = 32, height = 100 -->
+  <rect x="106" y="106" width="30" height="102" rx="4" fill="#BE1E2F" />
+  <!-- Key 2 between white keys 2 & 3 (centered around 172): x = 158, width = 32, height = 100 -->
+  <rect x="160" y="106" width="30" height="102" rx="4" fill="#BE1E2F" />
+  
+  <!-- GAP between white keys 3 & 4 (around 224) -->
+
+  <!-- Key 3 between white keys 4 & 5 (centered around 276): x = 264, width = 32, height = 100 -->
+  <rect x="264" y="106" width="30" height="102" rx="4" fill="#BE1E2F" />
+  <!-- Key 4 between white keys 5 & 6 (centered around 328): x = 316, width = 32, height = 100 -->
+  <rect x="317" y="106" width="30" height="102" rx="4" fill="#BE1E2F" />
+  <!-- Key 5 between white keys 6 & 7 (centered around 380): x = 368, width = 32, height = 100 -->
+  <rect x="370" y="106" width="30" height="102" rx="4" fill="#BE1E2F" />
+
+  <!-- Bottom Enclosure Bar -->
+  <rect x="50" y="278" width="400" height="24" rx="4" fill="#BE1E2F" />
+</svg>
