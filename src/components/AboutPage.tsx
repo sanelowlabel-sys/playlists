@@ -310,10 +310,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
               // READY FOR AIRPLAY
             </span>
             <h3 className="font-hammersmith text-xl sm:text-2xl text-slate-900 uppercase tracking-tight mt-1 mb-2">
-              SUBMIT NEW TRACKS TO OUR PLAYLIST NETWORK
+              SUBMIT PLAYLISTS &amp; TRACKS TO OUR NETWORK
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 max-w-xl">
-              Send your unreleased demos or released Spotify links directly to our A&amp;R team at{' '}
+              Send your Spotify playlists or unreleased demos directly to our curation and A&amp;R team at{' '}
               <a href={`mailto:${SANELOW_CONTACT_EMAIL}`} className="text-[#BE1E2F] font-mono-dm font-bold underline">
                 {SANELOW_CONTACT_EMAIL}
               </a>.
@@ -324,7 +324,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
             className="bg-[#BE1E2F] hover:bg-[#a11624] text-white px-6 py-3.5 rounded-lg text-xs font-mono-dm font-bold uppercase tracking-wider transition-colors flex items-center gap-2 shrink-0 cursor-pointer shadow-md shadow-[#BE1E2F]/20"
           >
             <Send className="w-4 h-4" />
-            <span>Submit Track Now</span>
+            <span>Submit Playlist Now</span>
           </button>
         </div>
 

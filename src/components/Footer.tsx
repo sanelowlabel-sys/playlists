@@ -67,7 +67,7 @@ export const Footer: React.FC<FooterProps> = ({ onNotify, onNavigate }) => {
                   onClick={() => onNavigate('submit')}
                   className="hover:text-white transition-colors cursor-pointer text-[#BE1E2F] font-bold"
                 >
-                  Submit New Tracks
+                  Submit Playlists &amp; Tracks
                 </button>
               </li>
               <li>
@@ -169,7 +169,7 @@ export const Footer: React.FC<FooterProps> = ({ onNotify, onNavigate }) => {
           <div className="flex items-center gap-3">
             <span>Catalog: 37 Playlists</span>
             <span>&middot;</span>
-            <span>Track Submissions: <a href={`mailto:${SANELOW_CONTACT_EMAIL}`} className="text-white hover:text-[#BE1E2F]">{SANELOW_CONTACT_EMAIL}</a></span>
+            <span>Submissions: <a href={`mailto:${SANELOW_CONTACT_EMAIL}`} className="text-white hover:text-[#BE1E2F]">{SANELOW_CONTACT_EMAIL}</a></span>
           </div>
         </div>
 

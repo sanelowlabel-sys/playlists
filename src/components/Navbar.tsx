@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }`}
             >
               <Send className={`w-3.5 h-3.5 ${activePage === 'submit' ? 'text-[#BE1E2F]' : 'text-slate-400'}`} />
-              <span>Submit New Tracks</span>
+              <span>Submit Playlist</span>
               {activePage === 'submit' && (
                 <span className="w-1.5 h-1.5 rounded-full bg-[#BE1E2F] ml-0.5" />
               )}
@@ -86,7 +86,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="bg-[#BE1E2F] hover:bg-[#a11624] text-white px-4 py-2 rounded-lg text-xs font-mono-dm font-bold uppercase tracking-wider transition-all duration-200 flex items-center gap-2 shadow-xs cursor-pointer hover:shadow-md hover:shadow-[#BE1E2F]/20 active:translate-y-px"
             >
               <Send className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Submit Track</span>
+              <span className="hidden sm:inline">Submit Playlist</span>
               <span className="sm:hidden">Submit</span>
             </button>
           </div>
@@ -124,7 +124,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               : 'text-slate-600 hover:text-slate-900'
           }`}
         >
-          Submit Track
+          Submit Playlist
         </button>
       </div>
 

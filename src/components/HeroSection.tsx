@@ -68,10 +68,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               className="bg-[#BE1E2F] hover:bg-[#a11624] text-white px-5 py-2.5 rounded-lg text-xs font-mono-dm font-bold uppercase tracking-wider transition-colors flex items-center gap-2 shadow-xs cursor-pointer active:translate-y-px"
             >
               <Send className="w-3.5 h-3.5" />
-              <span>Submit New Tracks to Network</span>
+              <span>Submit Playlist to Network</span>
             </button>
             <div className="text-xs font-mono-dm text-slate-500 pl-3 border-l border-slate-200">
-              A&amp;R Desk: <span className="text-slate-900 font-bold">sanelowlabel@gmail.com</span>
+              Submissions: <span className="text-slate-900 font-bold">sanelowlabel@gmail.com</span>
             </div>
           </div>
         </div>

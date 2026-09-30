@@ -41,4 +41,14 @@ export interface TrackSubmission {
   notes: string;
 }
 
+export interface PlaylistSubmission {
+  curatorName: string;
+  playlistTitle: string;
+  email: string;
+  playlistUrl: string;
+  genre: string;
+  trackCount: string;
+  description: string;
+}
+
 export type ActivePage = 'playlists' | 'about' | 'submit';
